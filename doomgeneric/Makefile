@@ -20,6 +20,8 @@ CFLAGS += -fno-pie
 CFLAGS += -fno-stack-protector
 CFLAGS += -Wall -Wextra
 CFLAGS += -D_DEFAULT_SOURCE
+CFLAGS += -nostdinc
+CFLAGS += -std=c17
 #CFLAGS += -DNORMALUNIX -DLINUX
 
 # Header search paths
